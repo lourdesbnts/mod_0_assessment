@@ -3,9 +3,10 @@ var isActive = true;
 famousPerson = 'Betty White';
 var num3 = 4;
 var num9 = 4000;
-console.log(num3 + num9);
-var sum = 4004;
+var sum = num3 + num9;
+console.log(sum)
 var animals = ['owl', 'elephant', 'whale'];
-animals.splice('owl');
+animals.shift();
+console.log(animals)
 var count = 0;
 console.log(famousPerson + count)
